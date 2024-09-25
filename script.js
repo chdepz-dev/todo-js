@@ -43,8 +43,10 @@ function loadTodos() {
             if (edit.innerText === "Save") {
                 saveEditedTodo(index)
                 toastMsg("Todo Edited")
+             
         
             } else {
+               
                 toastMsg("Editing mode Activated")
                 editTodo(index)
             }
@@ -56,6 +58,7 @@ function loadTodos() {
         del.addEventListener("click", () => {
             deleteTodo(todo.id)
             toastMsg("Todo Deleted")
+
         })
 
         div.appendChild(input)

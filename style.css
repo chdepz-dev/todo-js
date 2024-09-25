@@ -137,7 +137,7 @@ form h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Poppins", sans-serif;
-  background-color: black;
+  background-color: blueviolet;
   border: 2px solid white;
   color: white;
   padding: 10px 0px;
@@ -154,15 +154,7 @@ form h1 {
     opacity: 1; /* Fully visible */
   }
 }
-.saved{
-  background-color: green;
-}
-.deleted{
-  background-color: red;
-}
-.edited{
-  background-color: darkcyan;
-}
+
 .toast p {
   color: white;
   text-align: center;
